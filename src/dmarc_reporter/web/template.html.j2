@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>__REPORT_TITLE__</title>
+  <style>
+__REPORT_STYLES__
+  </style>
+</head>
+<body class="dark-shell">
+  <main class="report-shell" data-page-kind="report">
+    <aside class="filters-sidebar">
+      <div class="sidebar-scroll-region">
+        <div class="brand-lockup">
+__BRAND_LOGO__
+        </div>
+        <div class="sidebar-intro">
+          <p class="eyebrow">Interactive Filters</p>
+          <h1>__REPORT_TITLE__</h1>
+          <p class="page-subtitle">__REPORT_PERIOD__</p>
+        </div>
+        <section class="sidebar-card" id="sidebar-controls"></section>
+      </div>
+    </aside>
+
+    <section class="main-pane scroll-preserver" id="main-pane-scroll">
+      <div class="main-pane-scroll">
+        <header class="shell-header">
+          <div>
+            <p class="eyebrow">DMARC Analysis</p>
+            <h2 class="shell-heading">Investigative Report</h2>
+          </div>
+          <nav class="view-nav" id="view-nav"></nav>
+        </header>
+
+        <section id="partial-data-banner"></section>
+        <section class="status-strip" id="status-strip"></section>
+        <section class="summary-grid" id="summary-grid"></section>
+
+        <section class="content-section insight-hero" id="insight-hero"></section>
+        <section class="insight-grid" id="insight-grid"></section>
+        <section class="chart-grid" id="chart-grid"></section>
+
+        <section class="details-card content-section" id="details-section">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Deep Detail</p>
+              <h2>Normalized Records</h2>
+            </div>
+          </div>
+          <details class="detail-shell" id="detail-shell">
+            <summary>Show full detail table</summary>
+            <p class="detail-note" id="detail-note"></p>
+            <div class="table-wrap" id="record-table"></div>
+          </details>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script id="report-data" type="application/json">__REPORT_DATA__</script>
+  <script>
+__REPORT_SCRIPT__
+  </script>
+</body>
+</html>

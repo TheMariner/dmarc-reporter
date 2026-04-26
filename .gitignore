@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+build/
+dist/
+*.egg-info/
+*.pyc
+
+# Local runtime artifacts
+data/*
+!data/.gitkeep
+
+# User-provided/generated assets
+images/*
+!images/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Spec Kit / AI-generated project metadata
+.agents/
+.specify/
+AGENTS.md
+specs/

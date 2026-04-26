@@ -1,0 +1,32 @@
+{
+  "id": "1912f8c0dmarc001",
+  "threadId": "1912f8c0thread001",
+  "labelIds": [
+    "Label_42",
+    "UNREAD"
+  ],
+  "internalDate": "1776384000000",
+  "payload": {
+    "mimeType": "multipart/mixed",
+    "headers": [
+      {
+        "name": "Subject",
+        "value": "DMARC Aggregate Report for example.com"
+      },
+      {
+        "name": "From",
+        "value": "reports@example.net"
+      }
+    ],
+    "parts": [
+      {
+        "filename": "aggregate.xml",
+        "mimeType": "application/xml",
+        "body": {
+          "attachmentId": "ATTACHMENT_001",
+          "size": 1432
+        }
+      }
+    ]
+  }
+}
